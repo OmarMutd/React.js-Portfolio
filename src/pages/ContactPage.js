@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+// import Hero from '../components/Hero';
 
-export default function HomePage(props) {
+
+export default function ContactPage(props) {
     return (
         <div>
-            <p>Contact Page Works!</p>
+
+            Contact
+
         </div>
     )
 }
