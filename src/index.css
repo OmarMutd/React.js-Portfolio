@@ -62,10 +62,49 @@ code {
   padding-bottom: 10px;
 }
 
+.logo-img:hover {
+  opacity: 0.5;
+}
+
 .all-logos {
   padding-top: 10px;
 }
 
 .logo-text {
   text-align: center;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #22252c;
+  margin-top: 20px;
+  padding: 30px 0;
+}
+
+.footer-text {
+  color: white;
+}
+
+@media only screen and (min-width: 600px) {
+  .logo-img {
+    width: 9%;
+    display: inline-block;
+    margin-left: initial;
+    margin-right: initial;
+    margin-left: 20px;
+  }
+  .all-logos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 45px;
+  }
+  .logo-text {
+    display: none;
+  }
 }
