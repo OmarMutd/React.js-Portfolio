@@ -34,3 +34,38 @@ code {
   font-size: 16px;
   margin: 0px;
 }
+
+.success-msg {
+  color: #57A773;
+  padding: 10px 15px;
+}
+
+.err-msg {
+  color: #EE6352;
+  padding: 10px 15px;
+}
+
+.my-skills-header {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  color: grey;
+  border-bottom: 2px dotted grey;
+  padding-bottom: 10px;
+}
+
+.logo-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  padding-bottom: 10px;
+}
+
+.all-logos {
+  padding-top: 10px;
+}
+
+.logo-text {
+  text-align: center;
+}
