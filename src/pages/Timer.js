@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 export default class Timer extends Component {
     state = {
         date: new Date()
@@ -13,7 +14,7 @@ export default class Timer extends Component {
     render() {
         return (
             <div>
-                <p>It is {this.state.date.toLocaleTimeString()}</p>
+                <p>It is currently {this.state.date.toLocaleTimeString()}...</p>
                 {this.callMe()}
 
             </div>

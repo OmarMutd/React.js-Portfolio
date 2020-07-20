@@ -1,6 +1,9 @@
 import React from 'react';
-import Hero from '../components/Hero';
-import Carousel from '../components/Carousel';
+// import Hero from '../components/Hero';
+// import Carousel from '../components/Carousel';
+import Omar from '../assets/images/Omar.jpeg';
+
+
 
 import ReactTooltip from "react-tooltip";
 
@@ -18,8 +21,10 @@ import postgreLogo1 from '../postgreslogo3.webp'
 export default function HomePage(props) {
     return (
         <div>
-            <Hero title={props.title} subTitle={props.subTitle} text={props.text}></Hero>
-            <Carousel></Carousel>
+            {/* <Hero title={props.title} subTitle={props.subTitle} text={props.text}></Hero> */}
+            {/* <h1> Full Stack Developer</h1> */}
+            {/* <Carousel></Carousel> */}
+            <img className='avi' src={Omar} alt='avi' />
             <h4 className='my-skills-header'>My Skills</h4>
             <div className='all-logos'>
 

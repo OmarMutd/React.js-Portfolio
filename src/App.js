@@ -8,6 +8,7 @@ import Footer from './components/Footer.js';
 import HomePage from './pages/HomePage';
 import ContactPage from './pages/ContactPage';
 import AboutPage from './pages/AboutPage';
+import ProjectsPage from './pages/ProjectsPage';
 
 
 class App extends React.Component {
@@ -21,7 +22,7 @@ class App extends React.Component {
         { title: 'Contact', path: '/contact' }
       ],
       home: {
-        title: 'Full Stack Software Engineer',
+        title: 'Full Stack Developer',
         subTitle: 'if(cup.coffee == EMPTY) {brain == OFF};',
         text: 'Check me out below'
       },
@@ -30,6 +31,10 @@ class App extends React.Component {
       },
       contact: {
         title: 'Let\'s Talk'
+      },
+      projects: {
+        title: 'My Work'
+
       }
     }
   }
@@ -49,6 +54,7 @@ class App extends React.Component {
               <Nav className='ml-auto'>
                 <Link className='nav-link' to='/'>Home</Link>
                 <Link className='nav-link' to='/about'>About</Link>
+                <Link className='nav-link' to='/projects'>Projects</Link>
                 <Link className='nav-link' to='/contact'>Contact</Link>
               </Nav>
             </Navbar.Collapse>
@@ -56,6 +62,7 @@ class App extends React.Component {
           <Route path='/' exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text}></HomePage>}></Route>
           <Route path='/about' render={() => <AboutPage title={this.state.about.title} ></AboutPage>}></Route>
           <Route path='/contact' render={() => <ContactPage title={this.state.contact.title}></ContactPage>}></Route>
+          <Route path='/projects' render={() => <ProjectsPage title={this.state.projects.title}></ProjectsPage>}></Route>
 
           <Footer />
         </Container>
