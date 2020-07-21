@@ -109,6 +109,7 @@ code {
 
 .fab.fa-github.two:hover, .fab.fa-linkedin.two:hover, .fas.fa-file.two:hover {
   opacity: 0.2;
+  cursor: pointer;
 }
 
 .footer-icons {
@@ -124,6 +125,15 @@ code {
 
 .fab.fa-github, .fab.fa-linkedin, .fas.fa-file {
   padding-bottom: 10px;
+}
+
+.fab.fa-github:hover, .fab.fa-linkedin:hover, .fas.fa-file:hover {
+  opacity: 0.2;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
 }
 
 @media only screen and (min-width: 600px) {
@@ -145,8 +155,10 @@ code {
     display: none;
   }
   .avi {
-    width: 20%;
-    border-radius: 50%;
+    /* width: 20%;
+    border-radius: 50%; */
+    /* height: 200px; */
+    width: 50%;
   }
   .contact-icons {
     /* width: 70%; */

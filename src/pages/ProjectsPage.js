@@ -1,6 +1,6 @@
 import React from 'react';
-import Timer from './Timer';
-import Content from '../components/Content';
+// import Timer from './Timer';
+// import Content from '../components/Content';
 // import Hero from '../components/Hero';
 
 
