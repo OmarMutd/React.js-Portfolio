@@ -24,7 +24,32 @@ export default function HomePage(props) {
             {/* <Hero title={props.title} subTitle={props.subTitle} text={props.text}></Hero> */}
             {/* <h1> Full Stack Developer</h1> */}
             {/* <Carousel></Carousel> */}
-            <img className='avi' src={Omar} alt='avi' />
+            {/* <img className='avi' src={Omar} alt='avi' /> */}
+
+            <div className='card'>
+                <div className='profile-sidebar'>
+                    <img className='avi-omar' src={Omar} alt='That is Omar'></img>
+                    <ul className='social-list'>
+                        <li className='social-item'><a aria-label='Sq' className='social-link' href='www.google.com'><i className='fab fa-dribbble-square'></i></a></li>
+                        <li className='social-item'><a aria-label='Sq' className='social-link' href='www.google.com'><i className='fab fa-dribbble-square'></i></a></li>
+                        <li className='social-item'><a aria-label='Sq' className='social-link' href='www.google.com'><i className='fab fa-dribbble-square'></i></a></li>
+                    </ul>
+                </div>
+
+                <div className='profile-main'>
+                    <h2 className='profile-name'>Omar Muhanna</h2>
+                    <p className='profile-position'>Full Stack Developer</p>
+                    <p className='profile-body'>
+                        deleniti atque corrupti quos dolores
+                        et quas molestias excepturi sint occaecati cupiditate non
+                        provident, similique sunt in culpa qui officia deserunt mollitia animi,
+                        id est laborum et dolorum fuga. Et harum quidem rerum
+                    </p>
+
+
+                </div>
+            </div>
+
             <h4 className='my-skills-header'>My Skills</h4>
             <div className='all-logos'>
 
