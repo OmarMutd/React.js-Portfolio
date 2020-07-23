@@ -96,6 +96,9 @@ code {
 
 .footer-text {
   color: white;
+  /* border: 3px solid red; */
+  margin-right: 32px;
+  margin-top: 3px;
 }
 
 .avi {
@@ -194,6 +197,9 @@ a {
   color: black;
   text-align: center;
   padding: 2em;
+  margin-left: 45px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .social-list {
@@ -255,4 +261,12 @@ a {
   .profile-name::after {
     margin-left: 0;
   } */
+  .card {
+    margin-left: 500px;
+  }
+  .avi-omar.project {
+    width: 350px;
+    height: 350px;
+    border-radius: 0px 6px 6px 0px;
+  }
 }

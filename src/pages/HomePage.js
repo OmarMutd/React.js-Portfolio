@@ -29,21 +29,19 @@ export default function HomePage(props) {
             <div className='card'>
                 <div className='profile-sidebar'>
                     <img className='avi-omar' src={Omar} alt='That is Omar'></img>
-                    <ul className='social-list'>
-                        <li className='social-item'><a aria-label='Sq' className='social-link' href='www.google.com'><i className='fab fa-dribbble-square'></i></a></li>
-                        <li className='social-item'><a aria-label='Sq' className='social-link' href='www.google.com'><i className='fab fa-dribbble-square'></i></a></li>
-                        <li className='social-item'><a aria-label='Sq' className='social-link' href='www.google.com'><i className='fab fa-dribbble-square'></i></a></li>
-                    </ul>
                 </div>
 
                 <div className='profile-main'>
                     <h2 className='profile-name'>Omar Muhanna</h2>
                     <p className='profile-position'>Full Stack Developer</p>
                     <p className='profile-body'>
-                        deleniti atque corrupti quos dolores
-                        et quas molestias excepturi sint occaecati cupiditate non
-                        provident, similique sunt in culpa qui officia deserunt mollitia animi,
-                        id est laborum et dolorum fuga. Et harum quidem rerum
+                        React developer proficient with Node, Express, PostgreSQL,
+                        CSS, JavaScript & HTML.
+                        Interested in Full-Stack developer role and
+                        contributing to a software team with my skills.
+                        I really enjoy front-end development as it
+                        allows me to express my creativity by working on features and making
+                        web pages look aesthetically pleasing with css.
                     </p>
 
 
