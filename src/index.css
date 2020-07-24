@@ -192,7 +192,7 @@ a {
   max-width: 600px;
   display: flex;
   flex-direction: column;
-  background: #005e9b;
+  /* background: #005e9b; */
   /* color: white; */
   color: black;
   text-align: center;
@@ -262,7 +262,7 @@ a {
     margin-left: 0;
   } */
   .card {
-    margin-left: 500px;
+    margin-left: 535px;
   }
   .avi-omar.project {
     width: 350px;
